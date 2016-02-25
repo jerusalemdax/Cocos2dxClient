@@ -1,0 +1,6 @@
+#windows
+Debug.win32
+Release.win32
+*.vcxproj.user
+*.opendb
+*.sdf
