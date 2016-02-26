@@ -10,3 +10,6 @@ Release.win32
 .DS_Store
 xcuserdata
 project.xcworkspace
+
+# Javascript
+.idea
