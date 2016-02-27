@@ -11,5 +11,19 @@ Release.win32
 xcuserdata
 project.xcworkspace
 
+# Android
+bin
+gen
+local.properties
+assets
+libs
+obj
+
+# IOS
+build
+
 # Javascript
 .idea
+
+# Cocos2d-x
+simulator
