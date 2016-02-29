@@ -5,6 +5,8 @@ Release.win32
 *.opendb
 *.sdf
 .vs
+*.suo
+*.opensdf
 
 # OS X
 .DS_Store
