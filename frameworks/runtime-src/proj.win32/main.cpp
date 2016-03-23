@@ -14,7 +14,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
-#ifdef USE_WIN32_CONSOLE
+#ifdef COCOS2D_DEBUG
     AllocConsole();
     freopen("CONIN$", "r", stdin);
     freopen("CONOUT$", "w", stdout);
@@ -25,7 +25,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
     AppDelegate app;
     int ret = Application::getInstance()->run();
 
-#ifdef USE_WIN32_CONSOLE
+#ifdef COCOS2D_DEBUG
     FreeConsole();
 #endif
 
